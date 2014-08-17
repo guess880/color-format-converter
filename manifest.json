@@ -1,0 +1,22 @@
+{
+    "name": "__MSG_app_title__",
+    "description": "__MSG_app_description__",
+    "version": "1.0.0",
+    "icons": {
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "permissions": [
+        "contextMenus",
+        "clipboardRead"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "default_locale": "en",
+    "homepage_url": "https://github.com/guess880/color-format-converter",
+    "update_url": "https://github.com/guess880/color-format-converter/updateInfo.xml",
+    "manifest_version": 2
+}

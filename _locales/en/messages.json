@@ -1,0 +1,24 @@
+{
+    "app_title": {
+        "message": "Color Format Converter",
+        "description": "The title of the application, displayed in the web store."
+    },
+    "app_description": {
+        "message": "This extension converts color format of selection text to other format and saves to clipboard. (rgb <-> hex)",
+        "description": "The description of the application, displayed in the web store."
+    },
+    "context_menu_title": {
+        "message": "Convert color format and copy to clipboard",
+        "description": "The title of the context menu."
+    },
+    "error_on_convert": {
+        "message": "Can't convert format.\nSelected Text: $selected_text$",
+        "description": "The error message on converting format.",
+        "placeholders": {
+            "selected_text": {
+                "content": "$1",
+                "example": "Any text"
+            }
+        }
+    }
+}

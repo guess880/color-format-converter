@@ -1,0 +1,24 @@
+{
+    "app_title": {
+        "message": "Color Format Converter",
+        "description": "The title of the application, displayed in the web store."
+    },
+    "app_description": {
+        "message": "この拡張機能は、選択した色フォーマットの文字列を他のフォーマットに変換し、クリップボードにコピーします。(rgb <-> hex)",
+        "description": "The description of the application, displayed in the web store."
+    },
+    "context_menu_title": {
+        "message": "フォーマットを変換し、クリップボードにコピー",
+        "description": "The title of the context menu."
+    },
+    "error_on_convert": {
+        "message": "フォーマット変換できませんでした。\n選択されたテキスト: $selected_text$",
+        "description": "The error message on converting format.",
+        "placeholders": {
+            "selected_text": {
+                "content": "$1",
+                "example": "Any text"
+            }
+        }
+    }
+}
